@@ -1,0 +1,45 @@
+{
+  "name": "advanced-vue-component-composition-with-container-components",
+  "version": "0.1.0",
+  "author": "Markus Oberlehner",
+  "homepage": "https://github.com/maoberlehner/advanced-vue-component-composition-with-container-components",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve-integration-tests": "TEST_MODE=integration vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "test:acceptance": "TEST_MODE=acceptance vue-cli-service test:unit -- test/**/*",
+    "test:integration": "TEST_MODE=integration vue-cli-service test:unit -- src/**/*"
+  },
+  "dependencies": {
+    "@vue/cli-plugin-babel": "^3.5.1",
+    "@vue/cli-service": "^3.5.1",
+    "classnames": "^2.2.6",
+    "glob": "^7.1.3",
+    "jest-puppeteer": "^4.1.0",
+    "puppeteer": "^1.13.0",
+    "reset-css": "^4.0.1",
+    "sass": "^1.17.3",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.6.9",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.6.9",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@avalanche/eslint-config": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.5.1",
+    "@vue/cli-plugin-unit-jest": "^3.5.1",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.5.0",
+    "eslint": "^5.15.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "node-sass": "^4.11.0"
+  }
+}
