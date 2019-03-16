@@ -1,8 +1,8 @@
 {
-  "name": "advanced-vue-component-composition-with-container-components",
+  "name": "visual-regression-tests-for-vue-applications-with-jest-and-puppeteer",
   "version": "0.1.0",
   "author": "Markus Oberlehner",
-  "homepage": "https://github.com/maoberlehner/advanced-vue-component-composition-with-container-components",
+  "homepage": "https://github.com/maoberlehner/visual-regression-tests-for-vue-applications-with-jest-and-puppeteer",
   "license": "MIT",
   "private": true,
   "scripts": {

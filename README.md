@@ -1,9 +1,9 @@
-# Advanced Vue.js Component Composition With Container Components
+# Visual Regression Tests for Vue.Js Applications with Jest and Puppeteer
 
 [![Patreon](https://img.shields.io/badge/patreon-donate-blue.svg)](https://www.patreon.com/maoberlehner)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/maoberlehner)
 
-This is an example project for the following article: [Advanced Vue.js Component Composition With Container Components](https://markus.oberlehner.net/blog/advanced-vue-component-composition-with-container-components/)
+This is an example project for the following article: [Visual Regression Tests for Vue.Js Applications with Jest and Puppeteer](https://markus.oberlehner.net/blog/visual-regression-tests-for-vue-applications-with-jest-and-puppeteer/)
 
 ## Build Setup
 
