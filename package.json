@@ -10,7 +10,7 @@
     "serve-integration-tests": "TEST_MODE=integration vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit",
+    "test:unit": "vue-cli-service test:unit -- src/**/*",
     "test:acceptance": "TEST_MODE=acceptance vue-cli-service test:unit -- test/**/*",
     "test:integration": "TEST_MODE=integration vue-cli-service test:unit -- src/**/*"
   },
