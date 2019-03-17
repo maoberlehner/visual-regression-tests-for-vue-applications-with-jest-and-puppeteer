@@ -26,6 +26,7 @@ nbproject
 Thumbs.db
 
 # Folders to ignore
+__diff_output__
 /dist
 node_modules
 /test/screenshots/

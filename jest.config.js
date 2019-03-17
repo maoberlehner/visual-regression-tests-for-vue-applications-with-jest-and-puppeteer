@@ -1,8 +1,13 @@
 const { defaults } = require(`jest-config`);
 
-const puppeteerModes = [`acceptance`, `integration`];
+const puppeteerModes = [`acceptance`, `integration`, `visual`];
 const { TEST_MODE } = process.env;
 const PUPPETEER_MODE = puppeteerModes.includes(TEST_MODE);
+
+const testMatchers = {
+  integration: [`**/?(*.)+(integration).[tj]s?(x)`],
+  visual: [`**/?(*.)+(visual).[tj]s?(x)`],
+};
 
 module.exports = {
   moduleFileExtensions: [
@@ -16,9 +21,7 @@ module.exports = {
   snapshotSerializers: [
     `jest-serializer-vue`,
   ],
-  testMatch: TEST_MODE === `integration` ? [
-    `**/?(*.)+(integration).[tj]s?(x)`,
-  ] : defaults.testMatch,
+  testMatch: testMatchers[TEST_MODE] || defaults.testMatch,
   testURL: `http://localhost:8080`,
   transform: {
     '^.+\\.vue$': `vue-jest`,

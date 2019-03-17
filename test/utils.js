@@ -1,7 +1,12 @@
+import { toMatchImageSnapshot } from 'jest-image-snapshot';
 import Vue from 'vue';
 
 const SERVE_MODE = !global.describe;
 const TEST_MODE = !SERVE_MODE && process.env.TEST_MODE;
+
+if (TEST_MODE === `visual`) {
+  expect.extend({ toMatchImageSnapshot });
+}
 
 export const setup = SERVE_MODE ? cb => cb() : () => {};
 
@@ -41,4 +46,4 @@ export const containsText = async (text, wrapperSelector) => {
   return matches.length > 0;
 };
 
-export const open = url => page.goto(`http://localhost:8080${url}`);
+export const open = url => page.goto(`http://localhost:8080${url}`, { waitUntil: `networkidle0` });

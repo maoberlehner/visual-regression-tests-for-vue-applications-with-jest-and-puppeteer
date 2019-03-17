@@ -22,6 +22,12 @@ npm run test:unit
 
 # Run acceptance tests.
 npm run test:acceptance
+
+# Run integration tests.
+npm run test:integration
+
+# Run visual regression tests.
+npm run test:visual
 ```
 
 ## About

@@ -12,7 +12,8 @@
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit -- src/**/*",
     "test:acceptance": "TEST_MODE=acceptance vue-cli-service test:unit -- test/**/*",
-    "test:integration": "TEST_MODE=integration vue-cli-service test:unit -- src/**/*"
+    "test:integration": "TEST_MODE=integration vue-cli-service test:unit -- src/**/*",
+    "test:visual": "TEST_MODE=visual vue-cli-service test:unit -- test/**/*"
   },
   "dependencies": {
     "@vue/cli-plugin-babel": "^3.5.1",
@@ -40,6 +41,7 @@
     "eslint": "^5.15.2",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-vue": "^5.2.2",
+    "jest-image-snapshot": "^2.8.1",
     "node-sass": "^4.11.0"
   }
 }
