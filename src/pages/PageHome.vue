@@ -2,7 +2,7 @@
   <div :class="$style.wrap">
     <div :class="$style.intro">
       <h1 :class="$style.headline">
-        Visual Regression Tests for Vue.Js Applications with Jest and Puppeteer
+        Using Docker to Run Visual Regression Tests with Jest and Puppeteer
       </h1>
       <p>
         Demo application to show how to run Visual Regression Tests with Jest and Puppeteer.

@@ -1,8 +1,8 @@
 {
-  "name": "visual-regression-tests-for-vue-applications-with-jest-and-puppeteer",
+  "name": "using-docker-to-run-visual-regression-tests-with-jest-and-puppeteer",
   "version": "0.1.0",
   "author": "Markus Oberlehner",
-  "homepage": "https://github.com/maoberlehner/visual-regression-tests-for-vue-applications-with-jest-and-puppeteer",
+  "homepage": "https://github.com/maoberlehner/using-docker-to-run-visual-regression-tests-with-jest-and-puppeteer",
   "license": "MIT",
   "private": true,
   "scripts": {

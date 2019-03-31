@@ -1,9 +1,9 @@
-# Visual Regression Tests for Vue.Js Applications with Jest and Puppeteer
+# Using Docker to Run Visual Regression Tests with Jest and Puppeteer
 
 [![Patreon](https://img.shields.io/badge/patreon-donate-blue.svg)](https://www.patreon.com/maoberlehner)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/maoberlehner)
 
-This is an example project for the following article: [Visual Regression Tests for Vue.Js Applications with Jest and Puppeteer](https://markus.oberlehner.net/blog/visual-regression-tests-for-vue-applications-with-jest-and-puppeteer/)
+This is an example project for the following article: [Using Docker to Run Visual Regression Tests with Jest and Puppeteer](https://markus.oberlehner.net/blog/using-docker-to-run-visual-regression-tests-with-jest-and-puppeteer/)
 
 ## Build Setup
 
@@ -27,7 +27,7 @@ npm run test:acceptance
 npm run test:integration
 
 # Run visual regression tests.
-npm run test:visual
+docker-compose run visual
 ```
 
 ## About
